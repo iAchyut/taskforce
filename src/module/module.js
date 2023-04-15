@@ -1,4 +1,4 @@
-import Dashboard from "../pages/Dashboard/dashboard";
+import Dashboard from "../pages/dashboard/dashboard";
 import LandingPage from "../pages/landingPage";
 const module = (access) => {
     return ([
