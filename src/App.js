@@ -4,6 +4,7 @@ import { blue } from "@ant-design/colors";
 import { useRoutes } from "react-router-dom";
 import { GlobalContext } from "./providers/GlobalProvider";
 
+
 const App = () => {
   console.log(blue);
   console.log(blue.primary);

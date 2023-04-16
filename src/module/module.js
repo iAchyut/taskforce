@@ -1,5 +1,7 @@
 import Dashboard from "../pages/Dashboard/dashboard";
+import Layout from "../component/Layout/layout";
 import LandingPage from "../pages/landingPage";
+import { Navigate } from "react-router-dom";
 const module = (access) => {
     return ([
         {
@@ -8,7 +10,11 @@ const module = (access) => {
         },
         {
             path: "dashboard",
-            element: <Dashboard />
+            element: <Layout />
+        },
+        {
+            path: "*",
+            element: <Navigate to="/" />
         }
     ])
 }

@@ -13,7 +13,7 @@ import {
   Link,
   BrowserRouter as Router
 } from "react-router-dom";
-
+import "./index.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 let moduleList = module();
 root.render(
